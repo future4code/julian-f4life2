@@ -64,3 +64,82 @@ article button {
     grid-template-rows: repeat(3, 1fr);
     gap: 1%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    #first-h3 {
+        font-size: 0.7em;
+    }
+    
+    #trabalhe-conosco {
+        height: 200vh;
+    }
+    
+    #trabalhe-conosco div {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+    }
+
+    article {
+        padding: 3%;
+    }
+
+    #perguntas-frequentes {
+        height: 350vh;
+    }
+
+    #perguntas-frequentes ol {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 800px) {
+    #trabalhe-conosco {
+        height: 200vh;
+    }
+    
+    #trabalhe-conosco div {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+    }
+
+    article {
+        padding: 3%;
+    }
+    
+    #perguntas-frequentes {
+        height: 150vh;
+    }
+
+    #perguntas-frequentes ol {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #trabalhe-conosco {
+        height: 200vh;
+    }
+    
+    #trabalhe-conosco div {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+    }
+
+    article {
+        padding: 3%;
+    }
+
+    #perguntas-frequentes {
+        height: 100vh;
+    }
+
+    #perguntas-frequentes ol {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
